@@ -14,3 +14,6 @@
 4. `source deactivate #关闭虚拟环境`
 5. `conda install -n YOUR_ENV_NAME [PACKAGE] #安装包给指定环境`
 6. `conda remove --name YOUR_ENV_NAME PACKAGE_NAME #删除环境中的指定包`
+
+## conda 软件包管理
+1. `conda install --yes --file requirements.txt #安装requirements.txt指定的依赖包`
