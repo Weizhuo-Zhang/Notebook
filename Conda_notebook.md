@@ -9,6 +9,7 @@
 
 ## conda虚拟环境操作
 1. `conda create -n YOUR_ENV_NAME python=X.X (2.7 or 3.6) #创建虚拟环境`
+   `conda create -n YOUR_ENV_NAME python=3.4 -c conda-force #3.4不在默认的channel，但是在conda-force channel`
 2. `conda remove -n YOUR_ENV_NAME --all #删除虚拟环境`
 3. `source activate YOUR_ENV_NAME #激活虚拟环境`
 4. `source deactivate #关闭虚拟环境`
